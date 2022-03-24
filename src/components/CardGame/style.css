@@ -1,3 +1,21 @@
+.flipper{
+    width: 100%;
+    height: 100px;
+    transition: transform 0.8s;
+    perspective: preserve-3d;
+}
+
+.card-container:hover .flipper{
+    transform: translateY(180deg);
+}
+
+.card-front, .card-back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
 .card-game{
     display: flex;
     justify-content: center;

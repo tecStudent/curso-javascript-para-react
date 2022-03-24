@@ -1,3 +1,15 @@
 body{
     background-color: var(--color-pomb-and-power);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    
+}
+#root{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
 }
