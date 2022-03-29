@@ -2,21 +2,17 @@ import './src/styles/settings/color.css'
 import './src/styles/generic/reset.css'
 import './src/styles/elements/base.css'
 
-import Player from "./src/components/Player"
-import CardGame from "./src/components/CardGame"
+import BordGame from './src/object/BoardGame'
 
 
 const $root = document.querySelector("#root")
-const $htmlCardGame = CardGame()
+const $htmlBordGame = BordGame(3)
+/*
 const $htmlplayer1 = Player(1)
 const $htmlplayer2 = Player(2)
 
 $root.insertAdjacentHTML("beforeend", $htmlplayer1)
 $root.insertAdjacentHTML("beforeend", $htmlplayer2)
-$root.insertAdjacentHTML("beforeend", $htmlCardGame)
-/**
- * $root.insertAdjacentHTML("beforeend", $htmlCardGame)
-$root.insertAdjacentHTML("beforeend", $htmlCardGame)
-$root.insertAdjacentHTML("beforeend", $htmlCardGame)
-$root.insertAdjacentHTML("beforeend", $htmlCardGame)
-$root.insertAdjacentHTML("beforeend", $htmlCardGame) */ 
+
+*/
+$root.insertAdjacentHTML("beforeend", $htmlBordGame)
