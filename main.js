@@ -6,7 +6,7 @@ import BordGame from './src/object/BoardGame'
 
 
 const $root = document.querySelector("#root")
-const $htmlBordGame = BordGame(3)
+const $htmlBordGame = BordGame(6)
 /*
 const $htmlplayer1 = Player(1)
 const $htmlplayer2 = Player(2)
