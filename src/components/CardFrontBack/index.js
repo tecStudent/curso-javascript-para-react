@@ -4,7 +4,7 @@ function CardFrontBack(){
 
     return /*html*/`
     ${CardGame()}
-    ${CardGame()}
+    ${CardGame("javascript","Logo da Script")}
     `
 
 }
